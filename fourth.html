@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+        <style>
+            body{
+                background-color: cadetblue;
+            }
+            .penguin *{
+                position: absolute;
+            }
+            .penguin{
+                position: relative;
+                margin: auto;
+                margin-top: 5%;
+                width: 300px;
+                height: 300px;
+                display: block;
+            }
+            .right-cheek{
+                top: 15%;
+                left: 35%;
+                width: 60%;
+                height: 70%;
+                background-color: white;
+                border-radius: 70% 70% 60% 60%;
+            }
+            .left-cheek{
+                top: 15%;
+                left: 5%;
+                width: 60%;
+                height: 70%;
+                background-color: white;
+                border-radius: 70% 70% 60% 60%;
+            }
+            .belly{
+                top: 60%; 
+                left: 2.5%;
+                background-color: white;
+                width: 95%;
+                height: 100%;
+                border-radius: 120% 120% 100% 100%;
+            }
+            .penguin-top{
+                top: 10%;
+                left: 25%;
+                background-color: black;
+                width: 50%;
+                height: 45%;
+                border-radius: 70% 70% 60% 60%;
+            }
+            .penguin-bottom{
+                top: 40%;
+                left: 23.5%;
+                background-color: black;
+                width: 53%;
+                height: 45%;
+                border-radius: 70% 70% 100% 100%;
+            }
+            .right-hand{
+                top: -15%;
+                left: -15%;
+                background-color: black;
+                width: 30%;
+                height: 60%;
+                border-radius: 30% 30% 120% 30%;
+                transform: rotate(130deg);
+                animation-name: wave;  
+                animation-timing-function: ease;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;              
+            }
+
+            @keyframes wave {
+                0%{transform:rotate(130deg);}
+                25%{transform:rotate(105deg);}
+                50%{transform:rotate(130deg);}
+                75%{transform:rotate(105deg);}
+                100%{transform:rotate(130deg);}
+                
+            }
+
+
+
+
+
+
+
+
+
+           div .left-hand {
+                top: 0%;
+                left: 75%;
+                background-color: black;
+                width: 30%;
+                height: 60%;
+                border-radius: 30% 30% 30% 120%;
+                transform: rotate(-45deg);
+                animation:hii;
+          
+                position: absolute;        
+
+            }
+          
+
+            .left-feet{
+                top: 85%;
+                left: 60%;
+                background-color: orange;
+                width: 15%;
+                height: 30%;
+                border-radius: 50% 50% 50% 50%;
+                transform: rotate(-80deg);
+                z-index: -1;
+            }
+            .right-feet{
+                top: 85%;
+                left: 25%;
+                background-color: orange;
+                width: 15%;
+                height: 30%;
+                border-radius: 50% 50% 50% 50%;
+                transform: rotate(80deg);
+                z-index: -1;
+            }
+            .blush-right{
+                background-color: pink;
+                width:15%;
+                height:10%;
+                top:65%;
+                bottom:75%;
+                left:15%;
+                border-radius: 50%;
+                z-index: 1;
+
+            }
+            .blush-left{
+                background-color: pink;
+                width:15%;
+                height:10%;
+                top:65%;
+                bottom:35%;
+                right:15%;
+                border-radius: 50%;
+                z-index: 2;
+
+            }
+           .beak-bottom{
+               background-color: yellow;
+               border-radius: 50%;
+               width:15%;
+               height:9%;
+               top:65%;
+               bottom:35%;
+               right:10%;
+               left:41%;
+           }
+           .beak-top{
+               background-color: yellow;
+               border-radius: 50%;
+               width:17%;
+               height:10%;
+               top:60%;
+               bottom:35%;
+               right:0%;
+               left:40%;
+           }
+           .right-eye{
+               background-color: black;
+               width:10%;
+               height:10%;
+               border-radius:50%;
+               top:40%;
+               bottom:-3%;
+               left:20%;
+               
+           }
+
+           .r-I{
+               background-color:white;
+               width:10%;
+               height:10%;
+               border-radius:50%;
+               top:43%;
+               bottom:-1%;
+               left:20%;
+           }
+         .left-eye{
+                   
+               background-color: black;
+               width:10%;
+               height:10%;
+               border-radius:50%;
+               top:40%;
+               bottom:-2%;
+               left:65%;
+
+
+         }
+         .l-I{
+               background-color:white;
+               width:10%;
+               height:10%;
+               border-radius:50%;
+               top:43%;
+               bottom:-1%;
+               left:65%;
+           }
+         }
+        </style>
+
+   </head>
+   
+   <body>
+
+        <div class="penguin">
+
+            <div class="penguin-bottom" >
+                <div class="right-hand"></div>
+                <div class="left-hand"></div>
+                <div class="right-feet"></div>
+                <div class="left-feet"></div>
+            </div>
+
+            <div class="penguin-top">
+                <div class="right-cheek"></div>
+                <div class="left-cheek"></div>
+                <div class="belly"></div>
+                <div class="right-eye"></div>
+                <div class="r-I"></div>
+                <div class="left-eye"></div>
+                <div class="l-I"></div>
+                <div class="blush-right"></div>
+                <div class="blush-left"></div>
+                <div class="beak-top"></div>
+                <div class="beak-bottom"></div>
+            </div>
+
+        </div>
+
+   </body>
+</html> 
+

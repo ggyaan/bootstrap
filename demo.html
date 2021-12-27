@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Registration</title>
+    <link rel="stylesheet" href="onlinecourse.css">
+</head>
+<body>
+    <header>
+       <h3> Online Course <br> Registration </h3> 
+    </header>
+    <div id="top-bar">
+        <span class="navitems" > <a  href=""> session </a> </span>
+        <span class="navitems" > <a  href=""> semester </a> </span>
+        <span class="navitems" > <a  href=""> department </a> </span>
+        <span class="navitems" > <a  href=""> course </a> </span>
+        <span class="navitems" > <a  href=""> registration </a> </span>
+        <span class="navitems" > <a  href=""> manage students </a> </span>
+        <span class="navitems" > <a  href=""> enroll history </a> </span>
+        <span class="navitems" > <a  href="#studentlogs"> student logs </a> </span>
+        <span class="navitems" > <a  href=""> logout </a> </span>      
+    </div>
+    <section id="studentlogs" >
+        <div class="detailheading" > <h3> department </h3> </div>
+        <div class="department" > 
+            <table id="st" cellpadding="10px"  >
+                <tr class="heading1">
+                    <td> <label> Department </label>  </td> 
+               </tr>
+               <tr>
+                   <td class="tabel1">
+                        <form> 
+                            <div>
+                                <label style="font-weight: bold;" > Add Department </label>       
+                            </div>
+                            <div>
+                                <input class="entry" type="text" name="department" placeholder="department">
+                            </div>
+                            <div>
+                                <input type="submit" value="sumbit">
+                            </div>
+                        </form> 
+                   </td>
+               </tr>
+            </table>
+        </div>
+        <div class="session" >
+            <table id="nd" cellpadding=15px>
+                <tr > 
+                    <td class="heading2"> <label> Manage Session </label>  </td>
+                </tr>
+                <tr>
+                    <td class="table2">
+                        <table id="nd-inside" cellpadding=10px>
+                            <tr class="insidedata" >
+                                <td style="font-weight: bold;"> # </td>
+                                <td style="font-weight: bold;"> Department </td>
+                                <td style="font-weight: bold;"> Creation Date </td>
+                                <td style="font-weight: bold;"> Action </td>
+                            </tr>
+                            <tr class="insidedata" >
+                                <td> 1 </td>
+                                <td> Account </td>
+                                <td> 2017-01-10 00:52:00 </td>
+                                <td> <button class="button"> Delete </button> </td>
+                            </tr>
+                            <tr class="insidedata" >
+                                <td> 2 </td>
+                                <td> HR </td>
+                                <td> 2017-01-10 00:52:00 </td>
+                                <td> <button class="button"> Delete </button> </td>
+                            </tr>
+                            <tr class="insidedata" >
+                                <td> 3 </td>
+                                <td> Admin </td>
+                                <td> 2017-01-10 00:52:00 </td>
+                                <td> <button class="button"> Delete </button> </td>
+                            </tr>
+                            <tr class="insidedata" >
+                                <td> 4 </td>
+                                <td> Test </td>
+                                <td> 2017-01-10 00:52:00 </td>
+                                <td> <button class="button"> Delete </button> </td>
+                            </tr>
+                            <tr class="insidedata" >
+                                <td> 5 </td>
+                                <td> IT </td>
+                                <td> 2017-01-10 00:52:00 </td>
+                                <td> <button class="button"> Delete </button> </td>
+                            </tr>
+                        </table>    
+                    </td>
+                </tr>
+            </table>
+        </div>      
+    </section>
+    <footer>
+        © 2019 Online Course Registration | By:PHPGURUGUK
+    </footer>    
+</body>
+</html>

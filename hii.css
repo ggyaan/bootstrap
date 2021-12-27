@@ -1,0 +1,272 @@
+
+body{
+    margin:0%;
+    
+}
+
+
+
+.head2 ul li{
+    display: inline;
+    margin:5%;
+    position: relative;
+
+    
+    
+}
+.head{
+
+    position: absolute;
+}
+.head2{
+  
+    padding-left:850px;
+    color:white;
+    padding-top:25px;
+
+} 
+.head3{
+    top:40px;
+    position: absolute;
+    padding-left:100px;
+}  
+.head4{
+    position:absolute;
+    color:white;
+    top:40%;
+    left:35%;
+
+}
+.head5{
+    position:absolute;
+    color:white;
+    top:50%;
+    left:38.5%;
+    font-size:300%;
+}
+.btna {
+    position: absolute;
+        cursor: pointer;
+        border: 3px solid white;
+        background-color: transparent;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 1;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        bottom:20%;
+        left:35%;
+    }
+    .btn2{
+        position: absolute;
+        cursor: pointer;
+        border: 3px solid white;
+        background-color: transparent;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size:1;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        bottom:20%;
+        left:55%;
+    }
+
+
+
+
+
+
+    /*  2nd */
+
+    .m1{
+      margin:12%;
+      position: absolute;
+      top:100%;
+      left:40%;
+      
+    }
+  .m2{
+    margin:12%;
+    position: absolute;
+    top:110%;
+    left:37%;
+    font-size:20px;
+  }
+
+.b{
+    position: absolute;
+    top:150%;
+    left:10%; 
+    bottom:2%;
+   
+}
+.D{
+    position: absolute; 
+    top:145%;
+    left: 65%; 
+    
+}
+
+
+.A{
+    position: absolute; 
+    top:157%;
+    left:65%;
+    right:3%;
+  
+}
+ul li{
+     display: flex;
+    display: inline;
+    margin: 2%;
+   
+}
+
+
+
+
+/* 3rd */
+
+.T1{
+    top:200%;
+    position: absolute;
+    left:50%;
+    font-size:35px;
+}
+.M1{
+    top:210%;
+    position: absolute;
+    left:46%;
+    font-size:20px;
+}
+.flex{
+    position: absolute;
+    top:230%;
+    padding-left:9%;
+}
+.flex1{
+    position: absolute;
+    top:230%;
+    padding-left:28%;
+}
+.flex2{
+    position: absolute;
+    top:230%;
+    padding-left:50%;
+}
+.flex3{
+    position: absolute;
+    top:230%;
+    padding-left:73%;
+}
+
+
+
+/* 4th  */
+
+.four1{
+
+    position:absolute;
+    top:290%;
+    left:49%;
+    font-size:30px;
+
+}
+.gap {
+    position:absolute;
+    top:320%;
+    left:36%;
+    
+
+}
+.four2{
+
+    position:absolute;
+    top:300%;
+    left:44%;
+    font-size: 25px;
+}
+.imgM{
+    position:absolute;
+    top:330%;
+    left:5%;
+
+}
+.img2{
+    position:absolute;
+    top:330%;
+    left:35%;
+
+}
+.img3{
+    position:absolute;
+    top:330%;
+    left:65%;
+
+}
+.img4{
+    position:absolute;
+    top:380%;
+    left:5%;
+
+}
+.img5{
+    position:absolute;
+    top:380%;
+    left:35%;
+
+}
+.img6{
+    position:absolute;
+    top:380%;
+    left:65%;
+
+}
+
+
+
+/*last*/
+
+.head1{
+    position:absolute;
+    top:430%;
+}
+.footer4{
+    position:absolute;
+    top:430%;
+    left:45%;
+}
+.footer3{
+    position:absolute;
+    top:450%;
+    color:white;
+    left:5%;
+    
+}
+
+.footer1{
+    position:absolute;
+    top:470%;
+    color:white;
+    left:5%;
+}
+.padform{
+    position:absolute;
+    top:450%; 
+    left:70%;  
+}
+
+.btn {
+        position: absolute;
+        cursor: pointer;
+        border: 3px solid white;
+        background-color: transparent;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 1;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        bottom: -30%; 
+        left:35%;
+    }
+    

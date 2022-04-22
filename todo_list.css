@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+
+.wrapper{
+    margin: 150px auto;
+    max-width: 800px;
+    width:100%;
+    height:65%;
+    background-color:white;
+    border-radius: 5px;
+    padding: 25px;
+
+}
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.wrapper .inputField{
+    display:flex;
+    height:45px;
+    width:100%;
+
+}
+body{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(to bottom,#68EACC 0%,#497BE8 100%);
+}
+.inputField input{
+    width:85%;
+    height: 100%;
+    border:1px solid #ccc;
+    font-size: 17px;
+    padding-left:15px;
+}
+.inputField button{
+    width:60px;
+    height: 100%;
+    border:none;
+    outline:none;
+    background:#8E49E8;
+    color:#fff;
+    font-size:22px;
+    cursor: pointer;
+    border-radius:3px;
+    margin-left:5px;
+    opacity:0.6;
+    pointer-events:none;
+}     
+.inputField button.active{
+    opacity:1;
+    pointer-events:auto;
+}
+
+
+.wrapper .todolist{
+   max-height:250px;
+   overflow-y: auto;
+}
+
+.todolist li{
+    list-style:none;
+    height:45px;
+    top:35px;
+    line-height:45px;
+    position: relative;
+    background:#f2f2f2;
+    border-radius:3px;
+    margin-bottom:8px;
+    padding:0px 25px;
+    cursor: default;
+    overflow: hidden;
+}
+.todolist li span{
+    position: absolute;
+    right:-45px;
+    color:#fff;
+    width:45px;
+    text-align: center;
+    background:red;
+    border-radius:0 5p x 5px 0;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    
+}
+.todolist li:hover span{
+    right:0px;
+}
+.wrapper.footer{
+    display:flex;
+    width:100%;
+    margin-top:80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    position: absolute;
+    margin-bottom:90px;
+    margin-left:20px;
+    margin-top:50px;
+}
+.footer button{
+    border:none;
+    outline:none;
+    background:#8E49E8;
+    color:#fff;
+    font-size:16px;
+    cursor: pointer;
+    border-radius:3px;
+    margin-left:35px;
+    padding: 6px   10px;
+}
+.footer button.active{
+    opacity: 1;
+    pointer-events: auto;
+}

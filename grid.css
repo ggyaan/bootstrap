@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap');    
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Ubuntu',sans-serif;
+    font-size:20px;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-areas:'header header header menu right'
+                      'fourth fifth  fifth fifth right';       ;
+  gap:12px;            
+  background-color:#edf2f8;
+  padding:19px;
+  align-items: center;
+  
+}
+.grid-container >div {
+  border:1px;
+  padding:15px 0;
+  font-size:30px;
+  
+}
+.item-1{
+  grid-area: header;
+  background-color:#733fc8;
+  grid-row-start:1;
+  grid-row-end:25;
+  border-radius:10px;
+  
+}
+
+.item-2{
+  grid-area:menu;
+  background-color:#49556b;
+  grid-row-start:1;
+  grid-row-end:25;
+  border-radius:10px;
+
+}
+
+.item-3{
+  grid-area:right;
+  background-color: white;
+  grid-row-start:1;
+  grid-row-end:50;
+  border-radius:10px;
+
+}
+
+.item-4{
+  grid-area:fourth;
+  background-color: white;
+  border-radius:10px;
+  grid-row-start:25;
+  grid-row-end:50;
+}
+
+.item-5{
+  grid-area:fifth;
+  background-color: #18202d;
+  border-radius:10px;
+  grid-row-start:25;
+  grid-row-end:50;
+}
+
+/* the boxes*/
+.large{
+  font-size:20px;
+  color: white;
+  font-weight:500;
+  padding:30px;
+  text-align: justify;
+}
+.small{
+  font-size:15px;
+  color:grey;
+  font-weight:500;
+  padding:25px;
+  text-align: justify;
+}
+.large-white{
+  font-size:20px;
+  color:black;
+  font-weight:500;
+  padding:25px;
+  text-align: justify;
+}
+.name{
+  color:white;
+  font-size:20px;
+  
+}
+.position{
+  font-size:12px;
+  color: grey;
+  font-weight: 400;
+}
+.items-1{
+  padding-left:20%;
+}
+/*screen sizes*/
